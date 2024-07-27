@@ -27,4 +27,4 @@ jobs:
         tags: developerrb/speedysend:ss1  # Replace with your Docker Hub username and repository
 
     - name: Verify Pushed Image
-      run: docker pull developerrb/speedysend:ss # Replace with your Docker Hub username and repository
+      run: docker pull developerrb/speedysend:ss1 # Replace with your Docker Hub username and repository
