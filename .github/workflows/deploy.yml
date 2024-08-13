@@ -40,4 +40,4 @@ jobs:
           sudo docker pull developerrb/speedysend:ss1
           sudo docker stop web-app || true
           sudo docker rm web-app || true
-          sudo docker run -d --name web-app -p 3005:3000 developerrb/speedysend:ss1
+          sudo docker run -e DATABASE_URL=${postgresql://SSDB1_owner:x5bCeMp8mSGY@ep-withered-voice-a5bl37s0.us-east-2.aws.neon.tech/SSDB1?sslmode=require} --restart always -d --name web-app -p 3005:3000 developerrb/speedysend:ss1
