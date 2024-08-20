@@ -10,3 +10,5 @@ RDBMS, and developed on Turborepo for industry-standard monorepo development.
 - Leveraged Docker for containerization, developed a dummy bank webhook handler in Node.js, and established
 a robust CI/CD pipeline deploying to AWS EC2 via Docker. Implemented a secure reverse proxy with nginx,
 utilizing SSL certificates from Certbot.
+
+
